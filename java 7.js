@@ -143,18 +143,36 @@
 
 // task 15
 
-// var password=prompt("enter the password")
-// if(password.charCodeAt(0) >= 48 && password.charCodeAt(0) <= 57){
-// alert("start not a number")
-// }
-// else if(password.length  <=6){
-// alert("best password")
 
+//  var user = prompt("Enter the password");
+
+//  if(user.charCodeAt(0) >= 48 && user.charCodeAt(0) <= 57){
+//     alert("ap number se star na karo")
+//      }
+//  if(user.length <= 6){
+//     alert("password 6 se chota mat rakho")
+//  }
+ 
+// Number1=false
+// Number2=false
+// invalid=false
+// for(var i=0; i <= user.length; i++){
+// if(user.charCodeAt(i) >= 48 && user.charCodeAt(i) <= 57 ){
+// Number1=true
+// }
+// else if(user.charCodeAt(i) >= 90 && user.charCodeAt(i) <=122 || user.charCodeAt(i) >=65 && user.charCodeAt(i) <=90){
+//     Number2=true
 // }
 // else{
-//     alert("plzz only 6 limit  passwaord")
+//     invalid=true
 // }
-
+// }
+// if(Number1&&Number2&&invalid){
+//     alert("correct password")
+// }
+// else{
+//     alert("password apka galat he ")
+// }
 
 
 
